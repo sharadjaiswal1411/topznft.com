@@ -49,7 +49,7 @@ const { chains, provider } = configureChains(supportedChains, [
 ])
 
 const { connectors } = getDefaultWallets({
-  appName: 'Reservoir Marketplace',
+  appName: 'TopzNft Marketplace',
   chains,
 })
 
@@ -161,8 +161,8 @@ function MyApp({
             normalizeRoyalties: NORMALIZE_ROYALTIES,
             //CONFIGURABLE: Set your marketplace fee and recipient, (fee is in BPS)
             // Note that this impacts orders created on your marketplace (offers/listings)
-            // marketplaceFee: 250,
-            // marketplaceFeeRecipient: "0xabc"
+            marketplaceFee: 100,
+            marketplaceFeeRecipient: "0x07B63878c9593eA881dC9c096F999547d68f1865"
           }}
           theme={reservoirKitTheme}
         >

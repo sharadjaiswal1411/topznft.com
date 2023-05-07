@@ -89,14 +89,14 @@ const IndexPage: NextPage<Props> = ({ ssr }) => {
               Open Source Marketplace
             </Text>
             <Text style="body1" css={{ mb: 48 }}>
-              Reservoir Marketplace is an open-source project that showcases the
-              latest and greatest features of the Reservoir Platform.
+              TopzNft Marketplace is largest Marketplace for trading Trending NFT's on Arbitrum, Optimism, Polygon & Vaulted Ordinals NFT.
+              Enjoy lowest fee of 1% on trade.
             </Text>
             <a
-              href="https://github.com/reservoirprotocol/marketplace-v2"
+              href="http://localhost:3000/collection-rankings"
               target="_blank"
             >
-              <Button color="gray3">View Source Code</Button>
+              <Button color="gray3">Start Collecting Now</Button>
             </a>
           </Flex>
         )}

@@ -14,9 +14,9 @@ type Props = {
  * @param description - The description of the page.
  */
 export const Head: FC<Props> = ({
-  ogImage = 'https://marketplace.reservoir.tools/og-image.png',
-  title = 'Reservoir Market | Open Source NFT Marketplace',
-  description = 'Reservoir Market is an open source NFT marketplace built with Reservoir.',
+  ogImage = 'https://cdn.simplehash.com/assets/51d10a59cbc5cab68b827e07186e506be2107d1d31490b45e6c3359f93d515a5.png',
+  title = 'TopzNft | Most Traded NFTs on Ordinals & Arbitrum',
+  description = "TopzNft Marketplace is largest Marketplace for trading Trending NFT's on Arbitrum, Optimism, Polygon & Vaulted Ordinals NFT. Enjoy lowest fee of 1% on trade.",
 }) => {
   return (
     <NextHead>
@@ -31,7 +31,7 @@ export const Head: FC<Props> = ({
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@reservoir0x" />
+      <meta name="twitter:site" content="@topzNft" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
@@ -46,7 +46,7 @@ export const Head: FC<Props> = ({
       <meta property="og:image:type" content="image/png" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Reservoir Market Banner" />
+      <meta property="og:image:alt" content="TopzNft Market Banner" />
     </NextHead>
   )
 }
